@@ -1,0 +1,23 @@
+name: instagram
+
+# A cada 30 minutos entre 11h e 23h30 de Brasília (14h–02h30 UTC).
+on:
+  schedule:
+    - cron: "*/30 14-23 * * *"
+    - cron: "*/30 0-2 * * *"
+  workflow_dispatch:
+
+concurrency:
+  group: instagram
+  cancel-in-progress: false
+
+jobs:
+  publicar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 scripts/publicar_fila.py
+        env:
+          META_PAGE_TOKEN: ${{ secrets.META_PAGE_TOKEN }}
+          META_IG_USER_ID: ${{ secrets.META_IG_USER_ID }}
