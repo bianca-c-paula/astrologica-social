@@ -35,21 +35,34 @@
   "legenda": "Sábado. O Quatro de Espadas existe no baralho por um motivo.\n\n#tarot #tarô #autocuidado #descanso"
  },
  {
-  "id": "0928-horoscopo-semanal",
+  "id": "0928-horoscopo-parte1",
   "quando": "2026-09-28T12:30",
   "imagens": [
-   "0928-horo-00.jpg",
-   "0928-horo-01.jpg",
-   "0928-horo-02.jpg",
-   "0928-horo-03.jpg",
-   "0928-horo-04.jpg",
-   "0928-horo-05.jpg",
-   "0928-horo-06.jpg",
-   "0928-horo-07.jpg",
-   "0928-horo-08.jpg",
-   "0928-horo-09.jpg"
+   "0928-horo1-00.jpg",
+   "0928-horo1-01.jpg",
+   "0928-horo1-02.jpg",
+   "0928-horo1-03.jpg",
+   "0928-horo1-04.jpg",
+   "0928-horo1-05.jpg",
+   "0928-horo1-06.jpg",
+   "0928-horo1-07.jpg"
   ],
-  "legenda": "O céu de 28/09 a 04/10, calculado. Mercúrio entra em Escorpião na quarta e Vênus fica retrógrada no sábado, em Escorpião 8°, até 13/11.\n\nPra cada signo, a casa solar por onde eles passam e uma pergunta pra semana. O céu mostra a área. O que fazer com ela é seu.\n\nSalva e volta no domingo.\n\n#horoscopo #horoscopodasemana #astrologia #signos #venusretrograda"
+  "legenda": "Horóscopo da semana, 28/09 a 04/10 · parte 1: Áries a Virgem. Libra a Peixes sai às 20h.\n\nO destaque: Vênus fica retrógrada no sábado, em Escorpião, e segue assim até 13/11. Planeta do afeto e do dinheiro: tempo de rever, não de começar.\n\nCalculado com a posição real dos planetas, pelas casas a partir do seu signo. Se souber o Ascendente, lê pelos dois.\n\nComenta o seu signo.\n\n#horoscopo #horoscopodasemana #astrologia #signos #venusretrograda"
+ },
+ {
+  "id": "0928-horoscopo-parte2",
+  "quando": "2026-09-28T20:00",
+  "imagens": [
+   "0928-horo2-00.jpg",
+   "0928-horo2-01.jpg",
+   "0928-horo2-02.jpg",
+   "0928-horo2-03.jpg",
+   "0928-horo2-04.jpg",
+   "0928-horo2-05.jpg",
+   "0928-horo2-06.jpg",
+   "0928-horo2-07.jpg"
+  ],
+  "legenda": "Horóscopo da semana, 28/09 a 04/10 · parte 2: Libra a Peixes. Áries a Virgem saiu às 12h30.\n\nO destaque: Vênus fica retrógrada no sábado, em Escorpião, e segue assim até 13/11. Planeta do afeto e do dinheiro: tempo de rever, não de começar.\n\nCalculado com a posição real dos planetas, pelas casas a partir do seu signo. Se souber o Ascendente, lê pelos dois.\n\nComenta o seu signo.\n\n#horoscopo #horoscopodasemana #astrologia #signos #venusretrograda"
  },
  {
   "id": "0930-na-carta-mago",
