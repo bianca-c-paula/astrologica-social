@@ -87,8 +87,55 @@
     "legenda": "Cupom fiscal da libriana. Sem troca, sem devolução.\n\nMarca a libriana que vai se reconhecer.\n\n#signos #libra #memes #memesdesignos #astrologia"
   },
   {
-    "id": "0929-olha-de-novo-imperatriz",
+    "id": "0929-jessica-colab",
     "quando": "2026-09-29T20:00",
+    "imagens": [
+      "jessica-colab-00.jpg",
+      "jessica-colab-01.jpg",
+      "jessica-colab-02.jpg",
+      "jessica-colab-03.jpg",
+      "jessica-colab-04.jpg",
+      "jessica-colab-05.jpg"
+    ],
+    "legenda": "Tem pergunta que pede uma pessoa.\n\nA @_jessica_butterfly_ é taróloga e lê tarot e baralho cigano pelo WhatsApp: cartas na mesa e uma conversa com alguém do outro lado. Nos slides, as leituras e os valores.\n\nPra ler com ela: link na bio (myastrologica.me/leitura). O WhatsApp dela abre com o seu código e você escolhe a leitura.\n\n#tarot #tarô #leituradetarot #baralhocigano #tarotonline",
+    "marcar": {
+      "0": [
+        {
+          "username": "_jessica_butterfly_",
+          "x": 0.7,
+          "y": 0.45
+        }
+      ],
+      "1": [
+        {
+          "username": "_jessica_butterfly_",
+          "x": 0.27,
+          "y": 0.35
+        }
+      ],
+      "5": [
+        {
+          "username": "_jessica_butterfly_",
+          "x": 0.75,
+          "y": 0.68
+        }
+      ]
+    },
+    "colaboradores": [
+      "_jessica_butterfly_"
+    ]
+  },
+  {
+    "id": "0930-mago",
+    "quando": "2026-09-30T12:30",
+    "imagens": [
+      "0930-mago.jpg"
+    ],
+    "legenda": "O Mago tem as quatro ferramentas do baralho na mesa: copo, espada, bastão e moeda.\n\nFalta escolher uma e começar.\n\ntire sua carta grátis em myastrologica.me/carta\n\n#tarot #tarô #omago #arcanosmaiores"
+  },
+  {
+    "id": "0929-olha-de-novo-imperatriz",
+    "quando": "2026-09-30T20:00",
     "imagens": [
       "0929-olha-00.jpg",
       "0929-olha-01.jpg",
@@ -99,14 +146,6 @@
       "0929-olha-06.jpg"
     ],
     "legenda": "A Imperatriz fala nos detalhes: o olhar de frente, as doze estrelas, o coração com o símbolo de Vênus, as romãs, o trigo maduro.\n\nSe ela apareceu pra você esta semana, olha de novo. Às vezes a carta repete até a gente enxergar.\n\nQual detalhe você nunca tinha visto?\n\n#tarot #tarô #aimperatriz #simbologia #arcanosmaiores"
-  },
-  {
-    "id": "0930-mago",
-    "quando": "2026-09-30T12:30",
-    "imagens": [
-      "0930-mago.jpg"
-    ],
-    "legenda": "O Mago tem as quatro ferramentas do baralho na mesa: copo, espada, bastão e moeda.\n\nFalta escolher uma e começar.\n\ntire sua carta grátis em myastrologica.me/carta\n\n#tarot #tarô #omago #arcanosmaiores"
   },
   {
     "id": "1003-meme-venus-ex",
