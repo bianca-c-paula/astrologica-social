@@ -93,11 +93,9 @@
       "jessica-colab-00.jpg",
       "jessica-colab-01.jpg",
       "jessica-colab-02.jpg",
-      "jessica-colab-03.jpg",
-      "jessica-colab-04.jpg",
-      "jessica-colab-05.jpg"
+      "jessica-colab-03.jpg"
     ],
-    "legenda": "Tem pergunta que pede uma pessoa.\n\nA @_jessica_butterfly_ é taróloga e lê tarot e baralho cigano pelo WhatsApp: cartas na mesa e uma conversa com alguém do outro lado. Nos slides, as leituras e os valores.\n\nPra ler com ela: link na bio (myastrologica.me/leitura). O WhatsApp dela abre com o seu código e você escolhe a leitura.\n\n#tarot #tarô #leituradetarot #baralhocigano #tarotonline",
+    "legenda": "Essa é a Jessica, a @_jessica_butterfly_. Ela joga tarot e baralho cigano e atende pelo WhatsApp.\n\nOs valores tão nos slides. Pra chamar ela é só clicar no link da bio.\n\n#tarot #tarô #baralhocigano #leituradetarot #tarotonline",
     "marcar": {
       "0": [
         {
@@ -106,14 +104,7 @@
           "y": 0.45
         }
       ],
-      "1": [
-        {
-          "username": "_jessica_butterfly_",
-          "x": 0.27,
-          "y": 0.35
-        }
-      ],
-      "5": [
+      "3": [
         {
           "username": "_jessica_butterfly_",
           "x": 0.75,
