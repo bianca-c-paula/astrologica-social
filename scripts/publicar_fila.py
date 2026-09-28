@@ -53,16 +53,31 @@ def chave(texto):
     return " ".join(texto.split())[:80]
 
 
+def extras(post, i=None):
+    """Marcação na foto ("marcar": {"<índice da imagem>": [{"username", "x", "y"}]}) e
+    convite de colaboração ("colaboradores": ["usuario"], vai no post, não no slide)."""
+    q = {}
+    tags = post.get("marcar", {}).get(str(i if i is not None else 0))
+    if tags:
+        q["user_tags"] = json.dumps(tags)
+    if i is None and post.get("colaboradores"):
+        q["collaborators"] = json.dumps(post["colaboradores"])
+    return q
+
+
 def publicar(post):
     urls = [SITE + img for img in post["imagens"]]
     if len(urls) == 1:
-        c = call("POST", f"{IG}/media", image_url=urls[0], caption=post["legenda"])["id"]
+        c = call("POST", f"{IG}/media", image_url=urls[0], caption=post["legenda"], **extras(post))["id"]
     else:
-        filhos = [call("POST", f"{IG}/media", image_url=u, is_carousel_item="true")["id"] for u in urls]
+        filhos = [call("POST", f"{IG}/media", image_url=u, is_carousel_item="true", **extras(post, i))["id"]
+                  for i, u in enumerate(urls)]
         for f in filhos:
             pronto(f)
+        q = extras(post)
+        q.pop("user_tags", None)
         c = call("POST", f"{IG}/media", media_type="CAROUSEL", children=",".join(filhos),
-                 caption=post["legenda"])["id"]
+                 caption=post["legenda"], **q)["id"]
     pronto(c)
     media = call("POST", f"{IG}/media_publish", creation_id=c)["id"]
     return call("GET", media, fields="permalink").get("permalink")
