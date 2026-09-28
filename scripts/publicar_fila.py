@@ -19,6 +19,7 @@ import urllib.request
 
 G = "https://graph.facebook.com/v23.0"
 TOKEN, IG = os.environ["META_PAGE_TOKEN"], os.environ["META_IG_USER_ID"]
+PUBLICADOS = pathlib.Path(__file__).resolve().parent.parent / "publicados.json"
 FILA = pathlib.Path(__file__).resolve().parents[1] / "fila.json"
 # Servido direto do GitHub (repositório público), sem depender do site.
 SITE = "https://raw.githubusercontent.com/bianca-c-paula/astrologica-social/main/midia/"
@@ -83,20 +84,36 @@ def publicar(post):
     return call("GET", media, fields="permalink").get("permalink")
 
 
+def primeira_linha(texto):
+    return " ".join((texto or "").strip().split("\n")[0].split())[:50]
+
+
 def main():
+    """Nunca repete post: o registro principal é publicados.json (id da fila → link),
+    commitado pelo workflow. A legenda pode ser editada no app depois (foi o que
+    causou as repetições de 28/09), então a checagem por legenda é só reforço e
+    olha apenas a primeira linha."""
     agora = dt.datetime.now(BRT)
     fila = json.loads(FILA.read_text(encoding="utf-8"))
+    feitos = json.loads(PUBLICADOS.read_text(encoding="utf-8")) if PUBLICADOS.exists() else {}
     recentes = call("GET", f"{IG}/media", fields="caption", limit=30).get("data", [])
-    ja = {chave(m.get("caption") or "") for m in recentes}
+    ja = {primeira_linha(m.get("caption")) for m in recentes}
     for post in fila:
         quando = dt.datetime.fromisoformat(post["quando"]).replace(tzinfo=BRT)
-        if quando > agora or chave(post["legenda"]) in ja:
+        if quando > agora or post["id"] in feitos or primeira_linha(post["legenda"]) in ja:
             continue
         if agora - quando > ATRASO_MAX:
             print(f"pulado (atrasado): {post['id']}")
             continue
         print(f"publicando {post['id']} ({post['quando']})")
-        print(f"  {publicar(post)}")
+        # Marca antes de publicar: se o workflow cair no meio, o pior caso é
+        # um post faltando (visível), nunca um post repetido.
+        feitos[post["id"]] = {"em": agora.isoformat(timespec="minutes")}
+        PUBLICADOS.write_text(json.dumps(feitos, ensure_ascii=False, indent=2), encoding="utf-8")
+        link = publicar(post)
+        feitos[post["id"]]["link"] = link
+        PUBLICADOS.write_text(json.dumps(feitos, ensure_ascii=False, indent=2), encoding="utf-8")
+        print(f"  {link}")
         return  # um por rodada: nunca dois posts juntos
 
 
