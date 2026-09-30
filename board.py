@@ -19,6 +19,14 @@ for x in fila:
     x["imgs"] = [f"midia/{i}" for i in x["imagens"]]
     x["status"] = "agendado"
 
+# rascunho.json: mesmo formato da fila, posts que ainda esperam a aprovação dela
+rasc = AQUI / "rascunho.json"
+if rasc.exists():
+    for x in json.loads(rasc.read_text(encoding="utf-8")):
+        x["imgs"] = [f"midia/{i}" for i in x["imagens"]]
+        x["status"] = "aguardando aprovação"
+        fila.append(x)
+
 for arg in sys.argv[1:]:
     if arg.startswith("--extra="):
         pasta, pid, quando = arg.split("=", 1)[1].split("|")

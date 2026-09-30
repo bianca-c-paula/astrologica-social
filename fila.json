@@ -139,11 +139,139 @@
     "legenda": "A Imperatriz fala nos detalhes: o olhar de frente, as doze estrelas, o coração com o símbolo de Vênus, as romãs, o trigo maduro.\n\nSe ela apareceu pra você esta semana, olha de novo. Às vezes a carta repete até a gente enxergar.\n\nQual detalhe você nunca tinha visto?\n\n#tarot #tarô #aimperatriz #simbologia #arcanosmaiores"
   },
   {
+    "id": "1001-recibo-cancer",
+    "quando": "2026-10-01T20:00",
+    "imagens": [
+      "1001-recibo-cancer.jpg"
+    ],
+    "legenda": "Cupom fiscal da canceriana. Sem troca, sem devolução.\n\nMarca a canceriana que vai se reconhecer.\n\n#signos #cancer #memes #memesdesignos #astrologia"
+  },
+  {
+    "id": "1002-venus-retrograda",
+    "quando": "2026-10-02T12:30",
+    "imagens": [
+      "1002-venus-00.jpg",
+      "1002-venus-01.jpg",
+      "1002-venus-02.jpg",
+      "1002-venus-03.jpg",
+      "1002-venus-04.jpg",
+      "1002-venus-05.jpg"
+    ],
+    "legenda": "Vênus fica retrógrada amanhã, 03/10, às 4h15 (Brasília), em Escorpião 8°. Ela volta pra Libra no dia 25/10 e só segue em frente de novo em 13/11, às 21h27.\n\nNão é pra ter medo. É um tempo bom pra rever afeto, combinados, dinheiro e o quanto você se valoriza. Decisão grande nessas áreas, pensa duas vezes. Se ainda fizer sentido, a decisão é sua.\n\nSalva pra reler em novembro.\n\n#venusretrograda #astrologia #signos #mapaastral #autoconhecimento",
+    "tags": [
+      "ponte"
+    ]
+  },
+  {
     "id": "1003-meme-venus-ex",
     "quando": "2026-10-03T12:30",
     "imagens": [
       "1003-meme-venus-ex.jpg"
     ],
     "legenda": "Vênus fica retrógrada no sábado, 03/10, e volta a andar direto em 13/11.\n\nVisto daqui da Terra, ela parece andar pra trás no céu. É tempo de rever afeto, prazer e dinheiro. Não é convocação pra ninguém do passado.\n\nManda pra amiga que já está com o dedo no \"oi\".\n\n#venusretrograda #astrologia #memes #signos"
+  },
+  {
+    "id": "1004-forca",
+    "quando": "2026-10-04T20:00",
+    "imagens": [
+      "1004-forca.jpg"
+    ],
+    "legenda": "A Força do tarot é uma mulher segurando a boca de um leão com as mãos. Sem briga e sem grito.\n\nTem dia que ser forte é só isso.\n\n#tarot #tarô #aforca #arcanosmaiores"
+  },
+  {
+    "id": "1005-horoscopo-parte1",
+    "quando": "2026-10-05T12:30",
+    "imagens": [
+      "1005-horo1-00.jpg",
+      "1005-horo1-01.jpg",
+      "1005-horo1-02.jpg",
+      "1005-horo1-03.jpg",
+      "1005-horo1-04.jpg",
+      "1005-horo1-05.jpg",
+      "1005-horo1-06.jpg",
+      "1005-horo1-07.jpg"
+    ],
+    "legenda": "Horóscopo da semana, 05/10 a 11/10 · parte 1: Áries a Virgem.\n\nO destaque: no sábado, 10/10, tem Lua Nova em Libra, às 12h50. E Vênus segue andando pra trás em Escorpião até 13/11, então afeto e dinheiro continuam pedindo calma.\n\nCalculado com a posição real dos planetas, pelas casas a partir do seu signo. Se souber o Ascendente, lê pelos dois.\n\nComenta o seu signo.\n\n#horoscopo #horoscopodasemana #astrologia #signos #luanova",
+    "tags": [
+      "ponte"
+    ]
+  },
+  {
+    "id": "1005-horoscopo-parte2",
+    "quando": "2026-10-05T12:35",
+    "imagens": [
+      "1005-horo2-00.jpg",
+      "1005-horo2-01.jpg",
+      "1005-horo2-02.jpg",
+      "1005-horo2-03.jpg",
+      "1005-horo2-04.jpg",
+      "1005-horo2-05.jpg",
+      "1005-horo2-06.jpg",
+      "1005-horo2-07.jpg"
+    ],
+    "legenda": "Horóscopo da semana, 05/10 a 11/10 · parte 2: Libra a Peixes.\n\nO destaque: no sábado, 10/10, tem Lua Nova em Libra, às 12h50. E Vênus segue andando pra trás em Escorpião até 13/11, então afeto e dinheiro continuam pedindo calma.\n\nCalculado com a posição real dos planetas, pelas casas a partir do seu signo. Se souber o Ascendente, lê pelos dois.\n\nComenta o seu signo.\n\n#horoscopo #horoscopodasemana #astrologia #signos #luanova",
+    "tags": [
+      "ponte"
+    ]
+  },
+  {
+    "id": "1006-recibo-capricornio",
+    "quando": "2026-10-06T20:00",
+    "imagens": [
+      "1006-recibo-capricornio.jpg"
+    ],
+    "legenda": "Cupom fiscal da capricorniana. Sem troca, sem devolução.\n\nMarca a capricorniana que vai se reconhecer.\n\n#signos #capricornio #memes #memesdesignos #astrologia"
+  },
+  {
+    "id": "1007-eremita",
+    "quando": "2026-10-07T12:30",
+    "imagens": [
+      "1007-eremita.jpg"
+    ],
+    "legenda": "O Eremita não tá triste. Tá com a lanterna na mão, olhando o que o barulho não deixa ver.\n\nSe hoje você quiser ficar na sua, tá tudo bem.\n\n#tarot #tarô #oeremita #arcanosmaiores"
+  },
+  {
+    "id": "1008-aspectos",
+    "quando": "2026-10-08T20:00",
+    "imagens": [
+      "1008-aspectos-00.jpg",
+      "1008-aspectos-01.jpg",
+      "1008-aspectos-02.jpg",
+      "1008-aspectos-03.jpg",
+      "1008-aspectos-04.jpg",
+      "1008-aspectos-05.jpg",
+      "1008-aspectos-06.jpg",
+      "1008-aspectos-07.jpg",
+      "1008-aspectos-08.jpg"
+    ],
+    "legenda": "Os 5 aspectos do mapa astral e a pergunta que cada um faz. Salva pra ler o seu.\n\nAspecto é o ângulo entre dois planetas, o jeito que eles conversam. Conjunção junta, sextil abre chance, quadratura dá tensão, trígono flui e oposição espelha.\n\nComenta qual aspecto do seu mapa você quer entender.\n\n#mapaastral #astrologia #aspectos #signos #autoconhecimento",
+    "tags": [
+      "ponte"
+    ]
+  },
+  {
+    "id": "1009-recibo-sagitario",
+    "quando": "2026-10-09T12:30",
+    "imagens": [
+      "1009-recibo-sagitario.jpg"
+    ],
+    "legenda": "Cupom fiscal da sagitariana. Sem troca, sem devolução.\n\nMarca a sagitariana que vai se reconhecer.\n\n#signos #sagitario #memes #memesdesignos #astrologia"
+  },
+  {
+    "id": "1010-lua-nova-libra",
+    "quando": "2026-10-10T12:30",
+    "imagens": [
+      "1010-luanova-00.jpg",
+      "1010-luanova-01.jpg",
+      "1010-luanova-02.jpg",
+      "1010-luanova-03.jpg",
+      "1010-luanova-04.jpg",
+      "1010-luanova-05.jpg",
+      "1010-luanova-06.jpg"
+    ],
+    "legenda": "Lua Nova em Libra no sábado, 10/10, às 12h50 (Brasília), a 17°21' do signo.\n\nÉ o começo de um ciclo. No céu ela não aparece: o fio de lua volta lá pelo dia 12, no oeste, depois do pôr do sol.\n\nLibra é acordo, o que é justo pra você e pro outro. Só que Vênus, a regente de Libra, tá andando pra trás até 13/11, então é começo com calma: rever antes de fechar.\n\nNos slides, a casa onde ela cai pro seu signo. Comenta a sua.\n\n#luanova #luanovaemlibra #astrologia #signos #mapaastral",
+    "tags": [
+      "ponte"
+    ]
   }
 ]
