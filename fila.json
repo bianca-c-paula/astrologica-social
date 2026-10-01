@@ -351,6 +351,17 @@
     ]
   },
   {
+    "id": "1014-morte",
+    "quando": "2026-10-14T12:30",
+    "imagens": [
+      "1014-morte.jpg"
+    ],
+    "legenda": "A Morte é a carta que mais assusta e a que menos fala de morrer. Ela fala de fim de fase: aquilo que já acabou e você ainda tá carregando.\n\nO que fazer com esse fim é decisão sua.\n\n#tarot #tarô #amorte #arcanosmaiores",
+    "tags": [
+      "desmistificando"
+    ]
+  },
+  {
     "id": "1020-jessica",
     "quando": "2026-10-20T20:00",
     "imagens": [
@@ -371,6 +382,17 @@
     ]
   },
   {
+    "id": "1021-torre",
+    "quando": "2026-10-21T12:30",
+    "imagens": [
+      "1021-torre.jpg"
+    ],
+    "legenda": "A Torre assusta porque mostra coisa caindo. Mas o que cai é o que tava mal construído: um plano, uma ideia, uma desculpa.\n\nO que você levanta no lugar é com você.\n\n#tarot #tarô #atorre #arcanosmaiores",
+    "tags": [
+      "desmistificando"
+    ]
+  },
+  {
     "id": "1027-jessica",
     "quando": "2026-10-27T20:00",
     "imagens": [
@@ -388,6 +410,17 @@
     },
     "colaboradores": [
       "_jessica_butterfly_"
+    ]
+  },
+  {
+    "id": "1028-diabo",
+    "quando": "2026-10-28T12:30",
+    "imagens": [
+      "1028-diabo.jpg"
+    ],
+    "legenda": "Repara nas correntes da carta do Diabo: tão frouxas no pescoço dos dois. Dá pra tirar.\n\nEla fala do que te prende porque você deixa, não de castigo. Tirar ou não é decisão sua.\n\n#tarot #tarô #odiabo #arcanosmaiores",
+    "tags": [
+      "desmistificando"
     ]
   }
 ]
