@@ -139,12 +139,40 @@
     "legenda": "A Imperatriz fala nos detalhes: o olhar de frente, as doze estrelas, o coração com o símbolo de Vênus, as romãs, o trigo maduro.\n\nSe ela apareceu pra você esta semana, olha de novo. Às vezes a carta repete até a gente enxergar.\n\nQual detalhe você nunca tinha visto?\n\n#tarot #tarô #aimperatriz #simbologia #arcanosmaiores"
   },
   {
-    "id": "1001-recibo-cancer",
-    "quando": "2026-10-01T20:00",
+    "id": "1001-horoscopo-outubro-parte1",
+    "quando": "2026-10-01T18:00",
     "imagens": [
-      "1001-recibo-cancer.jpg"
+      "1001-mes1-00.jpg",
+      "1001-mes1-01.jpg",
+      "1001-mes1-02.jpg",
+      "1001-mes1-03.jpg",
+      "1001-mes1-04.jpg",
+      "1001-mes1-05.jpg",
+      "1001-mes1-06.jpg",
+      "1001-mes1-07.jpg"
     ],
-    "legenda": "Cupom fiscal da canceriana. Sem troca, sem devolução.\n\nMarca a canceriana que vai se reconhecer.\n\n#signos #cancer #memes #memesdesignos #astrologia"
+    "legenda": "Horóscopo de outubro · parte 1: Áries a Virgem.\n\nO mês tem Vênus andando pra trás (03/10 a 13/11), Lua Nova em Libra no dia 10, Sol em Escorpião no dia 23, Mercúrio retrógrado a partir do dia 24 e Lua Cheia em Touro no dia 26. Em cada signo, as datas pra marcar.\n\nCalculado com a posição real dos planetas, pelas casas a partir do seu signo. Se souber o Ascendente, lê pelos dois.\n\nSalva pra conferir durante o mês.\n\n#horoscopo #horoscopodomes #outubro #astrologia #signos",
+    "tags": [
+      "ponte"
+    ]
+  },
+  {
+    "id": "1001-horoscopo-outubro-parte2",
+    "quando": "2026-10-01T18:05",
+    "imagens": [
+      "1001-mes2-00.jpg",
+      "1001-mes2-01.jpg",
+      "1001-mes2-02.jpg",
+      "1001-mes2-03.jpg",
+      "1001-mes2-04.jpg",
+      "1001-mes2-05.jpg",
+      "1001-mes2-06.jpg",
+      "1001-mes2-07.jpg"
+    ],
+    "legenda": "Horóscopo de outubro · parte 2: Libra a Peixes.\n\nO mês tem Vênus andando pra trás (03/10 a 13/11), Lua Nova em Libra no dia 10, Sol em Escorpião no dia 23, Mercúrio retrógrado a partir do dia 24 e Lua Cheia em Touro no dia 26. Em cada signo, as datas pra marcar.\n\nCalculado com a posição real dos planetas, pelas casas a partir do seu signo. Se souber o Ascendente, lê pelos dois.\n\nSalva pra conferir durante o mês.\n\n#horoscopo #horoscopodomes #outubro #astrologia #signos",
+    "tags": [
+      "ponte"
+    ]
   },
   {
     "id": "1002-venus-retrograda",
@@ -169,6 +197,14 @@
       "1003-meme-venus-ex.jpg"
     ],
     "legenda": "Vênus fica retrógrada no sábado, 03/10, e volta a andar direto em 13/11.\n\nVisto daqui da Terra, ela parece andar pra trás no céu. É tempo de rever afeto, prazer e dinheiro. Não é convocação pra ninguém do passado.\n\nManda pra amiga que já está com o dedo no \"oi\".\n\n#venusretrograda #astrologia #memes #signos"
+  },
+  {
+    "id": "1001-recibo-cancer",
+    "quando": "2026-10-04T12:30",
+    "imagens": [
+      "1001-recibo-cancer.jpg"
+    ],
+    "legenda": "Cupom fiscal da canceriana. Sem troca, sem devolução.\n\nMarca a canceriana que vai se reconhecer.\n\n#signos #cancer #memes #memesdesignos #astrologia"
   },
   {
     "id": "1004-forca",
