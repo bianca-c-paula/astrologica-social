@@ -40,7 +40,8 @@ def call(method, path, **q):
 
 
 def pronto(container):
-    for _ in range(40):
+    # vídeo demora mais pra processar do que foto: espera até 5 min
+    for _ in range(100):
         st = call("GET", container, fields="status_code")["status_code"]
         if st == "FINISHED":
             return
@@ -67,6 +68,16 @@ def extras(post, i=None):
 
 
 def publicar(post):
+    # Reel: item com "video" (mp4 em midia/) e, opcionalmente, "capa" (jpg). Aparece no feed também.
+    if post.get("video"):
+        q = extras(post); q.pop("user_tags", None)
+        if post.get("capa"):
+            q["cover_url"] = SITE + post["capa"]
+        c = call("POST", f"{IG}/media", media_type="REELS", video_url=SITE + post["video"],
+                 caption=post["legenda"], share_to_feed="true", **q)["id"]
+        pronto(c)
+        media = call("POST", f"{IG}/media_publish", creation_id=c)["id"]
+        return call("GET", media, fields="permalink").get("permalink")
     urls = [SITE + img for img in post["imagens"]]
     if len(urls) == 1:
         c = call("POST", f"{IG}/media", image_url=urls[0], caption=post["legenda"], **extras(post))["id"]

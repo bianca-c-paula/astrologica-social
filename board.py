@@ -16,8 +16,8 @@ DIAS = ["seg", "ter", "qua", "qui", "sex", "sáb", "dom"]
 
 fila = json.loads((AQUI / "fila.json").read_text(encoding="utf-8"))
 for x in fila:
-    x["imgs"] = [f"midia/{i}" for i in x["imagens"]]
-    x["status"] = "agendado"
+    x["imgs"] = [f"midia/{i}" for i in x.get("imagens", [])] or ([f"midia/{x['capa']}"] if x.get("capa") else [])
+    x["status"] = "agendado" + (" · reel" if x.get("video") else "")
 
 # rascunho.json: mesmo formato da fila, posts que ainda esperam a aprovação dela
 rasc = AQUI / "rascunho.json"
