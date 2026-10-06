@@ -311,23 +311,17 @@
     "legenda": "O Eremita não tá triste. Tá com a lanterna na mão, olhando o que o barulho não deixa ver.\n\nSe hoje você quiser ficar na sua, tá tudo bem.\n\n#tarot #tarô #oeremita #arcanosmaiores"
   },
   {
-    "id": "1008-aspectos",
+    "id": "1008-linhagem",
     "quando": "2026-10-08T20:00",
     "imagens": [
-      "1008-aspectos-00.jpg",
-      "1008-aspectos-01.jpg",
-      "1008-aspectos-02.jpg",
-      "1008-aspectos-03.jpg",
-      "1008-aspectos-04.jpg",
-      "1008-aspectos-05.jpg",
-      "1008-aspectos-06.jpg",
-      "1008-aspectos-07.jpg",
-      "1008-aspectos-08.jpg"
+      "1008-linhagem-00.jpg",
+      "1008-linhagem-01.jpg",
+      "1008-linhagem-02.jpg",
+      "1008-linhagem-03.jpg",
+      "1008-linhagem-04.jpg",
+      "1008-linhagem-05.jpg"
     ],
-    "legenda": "Os 5 aspectos do mapa astral e a pergunta que cada um faz. Salva pra ler o seu.\n\nAspecto é o ângulo entre dois planetas, o jeito que eles conversam. Conjunção junta, sextil abre chance, quadratura dá tensão, trígono flui e oposição espelha.\n\nComenta qual aspecto do seu mapa você quer entender.\n\n#mapaastral #astrologia #aspectos #signos #autoconhecimento",
-    "tags": [
-      "ponte"
-    ]
+    "legenda": "Quem fez o tarot que a gente lê hoje.\n\nÉliphas Lévi, que inventou a leitura ocultista, antes se chamava Alphonse-Louis Constant e foi preso duas vezes por panfletos socialistas (1841 e 1847). Pamela Colman Smith desenhou as 78 cartas do Rider-Waite em 1909, recebeu um pagamento único, ficou décadas sem o nome na caixa e morreu sem dinheiro. O Motherpeace (1981), de Karen Vogel e Vicki Noble, redesenhou o baralho redondo e sem reis. Rachel Pollack, mulher trans e ativista desde os anos 70, escreveu o livro que ensinou o tarot a quem lê hoje.\n\nO tarot sempre esteve do lado de quem foi perseguido.\n\n#tarot #tarô #historiadotarot #pamelacolmansmith #rachelpollack"
   },
   {
     "id": "1009-recibo-sagitario",
@@ -369,6 +363,25 @@
       "1006-recibo-capricornio.jpg"
     ],
     "legenda": "Cupom fiscal da capricorniana. Sem troca, sem devolução.\n\nMarca a capricorniana que vai se reconhecer.\n\n#signos #capricornio #memes #memesdesignos #astrologia"
+  },
+  {
+    "id": "1008-aspectos",
+    "quando": "2026-10-12T20:00",
+    "imagens": [
+      "1008-aspectos-00.jpg",
+      "1008-aspectos-01.jpg",
+      "1008-aspectos-02.jpg",
+      "1008-aspectos-03.jpg",
+      "1008-aspectos-04.jpg",
+      "1008-aspectos-05.jpg",
+      "1008-aspectos-06.jpg",
+      "1008-aspectos-07.jpg",
+      "1008-aspectos-08.jpg"
+    ],
+    "legenda": "Os 5 aspectos do mapa astral e a pergunta que cada um faz. Salva pra ler o seu.\n\nAspecto é o ângulo entre dois planetas, o jeito que eles conversam. Conjunção junta, sextil abre chance, quadratura dá tensão, trígono flui e oposição espelha.\n\nComenta qual aspecto do seu mapa você quer entender.\n\n#mapaastral #astrologia #aspectos #signos #autoconhecimento",
+    "tags": [
+      "ponte"
+    ]
   },
   {
     "id": "1013-jessica",
