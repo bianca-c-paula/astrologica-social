@@ -199,14 +199,6 @@
     "legenda": "Vênus fica retrógrada no sábado, 03/10, e volta a andar direto em 13/11.\n\nVisto daqui da Terra, ela parece andar pra trás no céu. É tempo de rever afeto, prazer e dinheiro. Não é convocação pra ninguém do passado.\n\nManda pra amiga que já está com o dedo no \"oi\".\n\n#venusretrograda #astrologia #memes #signos"
   },
   {
-    "id": "1003-o-louco",
-    "quando": "2026-10-04T08:00",
-    "imagens": [
-      "1003-o-louco.jpg"
-    ],
-    "legenda": "O Louco é a carta zero do tarot: alguém andando na beira do precipício, olhando pra outro lado, com um cachorro avisando no pé.\n\nTodo começo tem um pouco disso.\n\n#tarot #tarô #olouco #arcanosmaiores"
-  },
-  {
     "id": "1001-recibo-cancer",
     "quando": "2026-10-04T12:30",
     "imagens": [
@@ -259,6 +251,14 @@
     ]
   },
   {
+    "id": "1006-posicionamento",
+    "quando": "2026-10-06T12:30",
+    "imagens": [
+      "1006-posicionamento.jpg"
+    ],
+    "legenda": "A Astrológica é de esquerda. Sempre foi, e agora a gente diz.\n\nAstrologia e tarot aqui não são fuga da realidade: são um jeito de olhar pra ela. O céu não decide eleição. Gente decide. E a gente não vai fingir que não viu o resultado de domingo.\n\nA nossa estrela tem que brilhar.\n\n#astrologia #tarot #esquerda #brasil"
+  },
+  {
     "id": "1006-jessica",
     "quando": "2026-10-06T20:00",
     "imagens": [
@@ -285,6 +285,22 @@
       "1007-eremita.jpg"
     ],
     "legenda": "O Eremita não tá triste. Tá com a lanterna na mão, olhando o que o barulho não deixa ver.\n\nSe hoje você quiser ficar na sua, tá tudo bem.\n\n#tarot #tarô #oeremita #arcanosmaiores"
+  },
+  {
+    "id": "1007-plutao-aquario",
+    "quando": "2026-10-07T20:00",
+    "imagens": [
+      "1007-plutao-aquario.jpg"
+    ],
+    "legenda": "Plutão entrou de vez em Aquário em novembro de 2024 e fica até 2043. A passagem anterior foi de 1778 a 1798: a década da Revolução Francesa.\n\nPlutão é o planeta do que apodrece e cai. Aquário é o signo do coletivo. Juntos, é o poder de poucos sobre muitos perdendo o chão. Demora, não é limpo e não acontece sozinho.\n\n#plutaoemaquario #astrologia #plutao #brasil"
+  },
+  {
+    "id": "1008-a-estrela",
+    "quando": "2026-10-08T12:30",
+    "imagens": [
+      "1008-a-estrela.jpg"
+    ],
+    "legenda": "No tarot, a Estrela (XVII) vem logo depois da Torre (XVI). Primeiro o que estava podre desaba. Depois alguém ajoelha na beira da água e volta a despejar.\n\nNão é consolo. É a ordem das coisas.\n\n#tarot #tarô #aestrela #arcanosmaiores"
   },
   {
     "id": "1008-aspectos",
@@ -314,6 +330,14 @@
     "legenda": "Cupom fiscal da sagitariana. Sem troca, sem devolução.\n\nMarca a sagitariana que vai se reconhecer.\n\n#signos #sagitario #memes #memesdesignos #astrologia"
   },
   {
+    "id": "1003-o-louco",
+    "quando": "2026-10-09T20:00",
+    "imagens": [
+      "1003-o-louco.jpg"
+    ],
+    "legenda": "Zero plano, uma mochila e a certeza de que dessa vez vai dar certo.\n\nO Louco é a carta de quem começa antes de estar pronta.\n\n#tarot #tarô #olouco #arcanosmaiores"
+  },
+  {
     "id": "1010-lua-nova-libra",
     "quando": "2026-10-10T12:30",
     "imagens": [
@@ -329,6 +353,14 @@
     "tags": [
       "ponte"
     ]
+  },
+  {
+    "id": "1010-justica",
+    "quando": "2026-10-10T20:00",
+    "imagens": [
+      "1010-justica.jpg"
+    ],
+    "legenda": "A Justiça do tarot (XI no Rider-Waite) segura a espada e a balança. Waite escreveu que ela dá a cada um conforme o que fez.\n\nNão esquece, não passa pano, não tem pressa.\n\n#tarot #tarô #ajustica #arcanosmaiores"
   },
   {
     "id": "1006-recibo-capricornio",
