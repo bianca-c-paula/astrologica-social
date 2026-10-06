@@ -251,12 +251,12 @@
     ]
   },
   {
-    "id": "1006-posicionamento",
+    "id": "1006-a-estrela",
     "quando": "2026-10-06T12:30",
     "imagens": [
-      "1006-posicionamento.jpg"
+      "1006-a-estrela.jpg"
     ],
-    "legenda": "A Astrológica é de esquerda. Sempre foi, e agora a gente diz.\n\nAstrologia e tarot aqui não são fuga da realidade: são um jeito de olhar pra ela. O céu não decide eleição. Gente decide. E a gente não vai fingir que não viu o resultado de domingo.\n\nA nossa estrela tem que brilhar.\n\n#astrologia #tarot #esquerda #brasil"
+    "legenda": "No tarot, a Estrela (XVII) vem logo depois da Torre (XVI). Primeiro o que estava podre desaba. Depois alguém ajoelha na beira da água e volta a despejar.\n\nNão é consolo. É a ordem das coisas.\n\n#tarot #tarô #aestrela #arcanosmaiores"
   },
   {
     "id": "1006-jessica",
@@ -292,15 +292,7 @@
     "imagens": [
       "1007-plutao-aquario.jpg"
     ],
-    "legenda": "Plutão entrou de vez em Aquário em novembro de 2024 e fica até 2043. A passagem anterior foi de 1778 a 1798: a década da Revolução Francesa.\n\nPlutão é o planeta do que apodrece e cai. Aquário é o signo do coletivo. Juntos, é o poder de poucos sobre muitos perdendo o chão. Demora, não é limpo e não acontece sozinho.\n\n#plutaoemaquario #astrologia #plutao #brasil"
-  },
-  {
-    "id": "1008-a-estrela",
-    "quando": "2026-10-08T12:30",
-    "imagens": [
-      "1008-a-estrela.jpg"
-    ],
-    "legenda": "No tarot, a Estrela (XVII) vem logo depois da Torre (XVI). Primeiro o que estava podre desaba. Depois alguém ajoelha na beira da água e volta a despejar.\n\nNão é consolo. É a ordem das coisas.\n\n#tarot #tarô #aestrela #arcanosmaiores"
+    "legenda": "Plutão entrou de vez em Aquário em novembro de 2024 e fica até 2043. A passagem anterior foi de 1778 a 1798: a década da Revolução Francesa.\n\nPlutão é o planeta do que apodrece e cai. Aquário é o signo do coletivo. Junte os dois. Demora, não é limpo e não acontece sozinho.\n\n#plutaoemaquario #astrologia #plutao"
   },
   {
     "id": "1008-aspectos",
