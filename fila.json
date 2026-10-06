@@ -283,6 +283,19 @@
     "legenda": "Depois da Torre, sempre vem a Estrela.\n\n#tarot #tarô #aestrela #arcanosmaiores"
   },
   {
+    "id": "1006-linhagem",
+    "quando": "2026-10-06T12:30",
+    "imagens": [
+      "1006-linhagem-00.jpg",
+      "1006-linhagem-01.jpg",
+      "1006-linhagem-02.jpg",
+      "1006-linhagem-03.jpg",
+      "1006-linhagem-04.jpg",
+      "1006-linhagem-05.jpg"
+    ],
+    "legenda": "Quem fez o tarot que a gente lê hoje.\n\nÉliphas Lévi inventou a leitura ocultista. Antes se chamava Alphonse-Louis Constant: foi diácono, largou a batina, virou socialista e foi preso duas vezes (1841 e 1847) por livros contra a miséria e a monarquia.\n\nPamela Colman Smith desenhou as 78 cartas do Rider-Waite em 1909, recebeu um pagamento único, ficou décadas sem o nome na caixa e morreu sem dinheiro. O túmulo dela nunca foi encontrado.\n\nO Motherpeace (1981), de Karen Vogel e Vicki Noble, redesenhou o baralho: redondo, sem reis.\n\nRachel Pollack, mulher trans e ativista desde os anos 70, escreveu o livro que ensinou o tarot a quem lê hoje.\n\nO tarot sempre esteve do lado de quem foi perseguido.\n\n#tarot #tarô #historiadotarot #pamelacolmansmith #rachelpollack"
+  },
+  {
     "id": "1006-jessica",
     "quando": "2026-10-06T20:00",
     "imagens": [
@@ -309,14 +322,6 @@
       "1007-eremita.jpg"
     ],
     "legenda": "O Eremita não tá triste. Tá com a lanterna na mão, olhando o que o barulho não deixa ver.\n\nSe hoje você quiser ficar na sua, tá tudo bem.\n\n#tarot #tarô #oeremita #arcanosmaiores"
-  },
-  {
-    "id": "1008-levi",
-    "quando": "2026-10-08T20:00",
-    "imagens": [
-      "1008-levi.jpg"
-    ],
-    "legenda": "Quem fez o tarot, 1 de 4: Éliphas Lévi (1810–1875).\n\nInventou a leitura ocultista do tarot que todo mundo usa até hoje. Antes de ser Lévi, se chamava Alphonse-Louis Constant, foi diácono, largou a batina e virou socialista. Foi preso duas vezes, em 1841 e 1847, por livros contra a miséria e a monarquia.\n\nPrimeiro a rua, depois as cartas.\n\n#tarot #tarô #historiadotarot #eliphaslevi"
   },
   {
     "id": "1009-recibo-sagitario",
@@ -352,36 +357,12 @@
     ]
   },
   {
-    "id": "1010-pamela",
-    "quando": "2026-10-10T20:00",
-    "imagens": [
-      "1010-pamela.jpg"
-    ],
-    "legenda": "Quem fez o tarot, 2 de 4: Pamela Colman Smith (1878–1951).\n\nDesenhou as 78 cartas do Rider-Waite em 1909, o baralho mais usado do mundo. Recebeu um pagamento único e ficou décadas sem o nome na caixa. Era sufragista. Morreu sem dinheiro, e o túmulo dela nunca foi encontrado.\n\nO baralho é dela.\n\n#tarot #tarô #historiadotarot #pamelacolmansmith"
-  },
-  {
-    "id": "1011-motherpeace",
-    "quando": "2026-10-11T12:30",
-    "imagens": [
-      "1011-motherpeace.jpg"
-    ],
-    "legenda": "Quem fez o tarot, 3 de 4: Motherpeace (1981).\n\nKaren Vogel e Vicki Noble redesenharam o baralho inteiro: cartas redondas, sem reis, com mulheres de todas as cores fazendo o trabalho do mundo. Nasceu o tarot feminista, e ele nunca mais saiu de cena.\n\nSem rei. Sem trono.\n\n#tarot #tarô #historiadotarot #motherpeace"
-  },
-  {
     "id": "1006-recibo-capricornio",
     "quando": "2026-10-11T20:00",
     "imagens": [
       "1006-recibo-capricornio.jpg"
     ],
     "legenda": "Cupom fiscal da capricorniana. Sem troca, sem devolução.\n\nMarca a capricorniana que vai se reconhecer.\n\n#signos #capricornio #memes #memesdesignos #astrologia"
-  },
-  {
-    "id": "1012-pollack",
-    "quando": "2026-10-12T20:00",
-    "imagens": [
-      "1012-pollack.jpg"
-    ],
-    "legenda": "Quem fez o tarot, 4 de 4: Rachel Pollack (1945–2023).\n\nEscreveu Seventy-Eight Degrees of Wisdom (1980), o livro que ensinou a ler tarot pra quem lê hoje. Mulher trans, ativista desde os anos 1970, quando isso custava tudo.\n\nLeu o baralho. E foi lida.\n\n#tarot #tarô #historiadotarot #rachelpollack"
   },
   {
     "id": "1013-jessica",
