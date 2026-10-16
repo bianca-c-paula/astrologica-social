@@ -458,12 +458,20 @@
     "legenda": "Teste de visão da semana. Leia até onde conseguir.\n\nPlutão volta a andar direto, Vênus segue retrógrada, Sol entra em Escorpião na sexta 23/10, Mercúrio fica retrógrado no sábado 24/10, Vênus volta pra Libra no domingo 25/10, Lua Cheia em Touro na segunda 26/10, 1h12.\n\nSegunda, 20h, tem o horóscopo da semana aqui.\n\n#astrologia #céudasemana #mercurioretrogrado #luacheia"
   },
   {
-    "id": "1019-painel",
+    "id": "1019-horoscopo-parte1",
     "quando": "2026-10-19T20:00",
     "imagens": [
-      "1019-painel.jpg"
+      "horoscopo-2026-10-19-parte1.jpg"
     ],
-    "legenda": "Horóscopo de 19 a 25/10, em painel de aeroporto. Confira o seu portão.\n\nPortão é a casa onde o Sol entra na sexta, 23/10, quando começa a temporada de Escorpião. Mercúrio fica retrógrado no sábado, 24/10, até 13/11: quem tá ATRASADO ou com PORTÃO MUDOU, é por isso. Vênus volta pra Libra no domingo.\n\nNinguém perde o voo. Alguns só embarcam depois.\n\n#horoscopo #horóscopodasemana #astrologia #mercurioretrogrado"
+    "legenda": "Horóscopo da semana, 19 a 25/10 · parte 1: Áries a Virgem.\n\nSol entra em Escorpião na sexta 23/10, às 7h. Mercúrio fica retrógrado no sábado 24/10, em Escorpião 21°, até 13/11. Vênus, ainda retrógrada, volta pra Libra no domingo 25/10.\n\nCasa é a área da vida onde isso cai pra você, contada a partir do seu signo solar.\n\nLibra a Peixes no próximo post.\n\n#horoscopo #horóscopodasemana #astrologia #mercurioretrogrado"
+  },
+  {
+    "id": "1019-horoscopo-parte2",
+    "quando": "2026-10-19T20:05",
+    "imagens": [
+      "horoscopo-2026-10-19-parte2.jpg"
+    ],
+    "legenda": "Horóscopo da semana, 19 a 25/10 · parte 2: Libra a Peixes.\n\nSol entra em Escorpião na sexta 23/10, às 7h. Mercúrio fica retrógrado no sábado 24/10, em Escorpião 21°, até 13/11. Vênus, ainda retrógrada, volta pra Libra no domingo 25/10.\n\nCasa é a área da vida onde isso cai pra você, contada a partir do seu signo solar.\n\nÁries a Virgem no post anterior.\n\n#horoscopo #horóscopodasemana #astrologia #mercurioretrogrado"
   },
   {
     "id": "1020-jessica",
