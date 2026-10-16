@@ -531,6 +531,32 @@
     "story": "1020-story.jpg"
   },
   {
+    "id": "1021-venus-plutao",
+    "quando": "2026-10-21T20:00",
+    "imagens": [
+      "1021-venus-plutao.jpg"
+    ],
+    "legenda": "Vênus quadratura Plutão, exata terça 20/10. Vênus retrógrada em Escorpião, Plutão direto em Aquário.\n\nVênus é o que você quer, quem você quer e quanto você tem. Plutão é poder, posse e medo de perder. Quadratura é tensão. Com Vênus retrógrada, é assunto antigo voltando, não assunto novo: ciúme de antes, dívida de antes, controle de antes.\n\nVale olhar. Não vale decidir.\n\n#astrologia #signos #horoscopo #venusretrograda #plutao #aspectos #mapaastral #astrologiabrasil #transitos #astrologica"
+  },
+  {
+    "id": "1021-story",
+    "quando": "2026-10-21T20:15",
+    "story": "1021-story.jpg"
+  },
+  {
+    "id": "1022-temperanca",
+    "quando": "2026-10-22T20:00",
+    "imagens": [
+      "1022-temperanca.jpg"
+    ],
+    "legenda": "A Temperança (XIV). O anjo passa a água de uma taça pra outra, devagar, sem derramar. Um pé na água, outro na terra.\n\nÉ a carta da semana em que Mercúrio fica retrógrado (sábado 24/10): não é parar, é dosar. Reler antes de mandar. Medir antes de misturar.\n\n#tarot #tarô #tarotonline #temperanca #arcanosmaiores #leituradetarot #cartomante #mercurioretrogrado #tarotdodia #astrologica"
+  },
+  {
+    "id": "1022-story",
+    "quando": "2026-10-22T20:15",
+    "story": "1022-story.jpg"
+  },
+  {
     "id": "1023-escorpiao",
     "quando": "2026-10-23T20:00",
     "imagens": [
@@ -555,6 +581,19 @@
     "id": "1024-story",
     "quando": "2026-10-24T20:15",
     "story": "1024-story.jpg"
+  },
+  {
+    "id": "1025-mundo",
+    "quando": "2026-10-25T20:00",
+    "imagens": [
+      "1025-mundo.jpg"
+    ],
+    "legenda": "O Mundo (XXI) é a última carta dos arcanos maiores: o ciclo fecha e outro começa. Não acaba hoje. Muda.\n\nHoje Vênus volta pra Libra, o signo da balança. Você sabe o que fazer.\n\n#tarot #tarô #tarotonline #omundo #arcanosmaiores #leituradetarot #cartomante #astrologia #venusemlibra #astrologica"
+  },
+  {
+    "id": "1025-story",
+    "quando": "2026-10-25T20:15",
+    "story": "1025-story.jpg"
   },
   {
     "id": "1026-lua",
