@@ -434,12 +434,20 @@
     ]
   },
   {
-    "id": "1017-roda",
-    "quando": "2026-10-17T20:00",
+    "id": "1016-roda",
+    "quando": "2026-10-16T20:00",
     "imagens": [
-      "1017-roda.jpg"
+      "1016-roda.jpg"
     ],
     "legenda": "A Roda da Fortuna (X) não escolhe quem sobe. Só gira.\n\nQuem tá em cima hoje já esteve embaixo. Quem tá embaixo, idem.\n\n#tarot #tarô #rodadafortuna #arcanosmaiores"
+  },
+  {
+    "id": "1017-crescente",
+    "quando": "2026-10-17T20:00",
+    "imagens": [
+      "1017-crescente.jpg"
+    ],
+    "legenda": "Lua Crescente em Capricórnio amanhã, domingo 18/10, às 13h13 (Brasília), a 25°19'.\n\nMetade acesa, metade no escuro. É a fase de empurrar: o que você começou na Lua Nova de Libra (10/10) pede esforço agora, não inspiração.\n\n#luacrescente #capricórnio #astrologia #lunação"
   },
   {
     "id": "1018-visao",
