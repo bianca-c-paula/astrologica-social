@@ -434,6 +434,30 @@
     ]
   },
   {
+    "id": "1017-roda",
+    "quando": "2026-10-17T20:00",
+    "imagens": [
+      "1017-roda.jpg"
+    ],
+    "legenda": "A Roda da Fortuna (X) não escolhe quem sobe. Só gira.\n\nQuem tá em cima hoje já esteve embaixo. Quem tá embaixo, idem.\n\n#tarot #tarô #rodadafortuna #arcanosmaiores"
+  },
+  {
+    "id": "1018-visao",
+    "quando": "2026-10-18T20:00",
+    "imagens": [
+      "1018-visao.jpg"
+    ],
+    "legenda": "Teste de visão da semana. Leia até onde conseguir.\n\nPlutão volta a andar direto, Vênus segue retrógrada, Sol entra em Escorpião na sexta 23/10, Mercúrio fica retrógrado no sábado 24/10, Vênus volta pra Libra no domingo 25/10, Lua Cheia em Touro na segunda 26/10, 1h12.\n\nSegunda, 20h, tem o horóscopo da semana aqui.\n\n#astrologia #céudasemana #mercurioretrogrado #luacheia"
+  },
+  {
+    "id": "1019-painel",
+    "quando": "2026-10-19T20:00",
+    "imagens": [
+      "1019-painel.jpg"
+    ],
+    "legenda": "Horóscopo de 19 a 25/10, em painel de aeroporto. Confira o seu portão.\n\nPortão é a casa onde o Sol entra na sexta, 23/10, quando começa a temporada de Escorpião. Mercúrio fica retrógrado no sábado, 24/10, até 13/11: quem tá ATRASADO ou com PORTÃO MUDOU, é por isso. Vênus volta pra Libra no domingo.\n\nNinguém perde o voo. Alguns só embarcam depois.\n\n#horoscopo #horóscopodasemana #astrologia #mercurioretrogrado"
+  },
+  {
     "id": "1020-jessica",
     "quando": "2026-10-20T20:00",
     "imagens": [
@@ -452,6 +476,30 @@
     "colaboradores": [
       "_jessica_butterfly_"
     ]
+  },
+  {
+    "id": "1023-escorpiao",
+    "quando": "2026-10-23T20:00",
+    "imagens": [
+      "1023-escorpiao.jpg"
+    ],
+    "legenda": "Temporada de Escorpião. O Sol entrou hoje, 23/10, às 7h.\n\nA carta do signo é a Morte. Nada contra. É só o que ela diz: o que acabou, acabou.\n\n#escorpião #temporadadeescorpião #tarot #astrologia"
+  },
+  {
+    "id": "1024-mercurio",
+    "quando": "2026-10-24T20:00",
+    "imagens": [
+      "1024-mercurio.jpg"
+    ],
+    "legenda": "Se você leu de primeira, parabéns.\n\nMercúrio ficou retrógrado hoje, 24/10, às 4h, em Escorpião 21°. Volta a andar direto em 13/11, no mesmo dia que Vênus. Até lá: reler antes de mandar, confirmar antes de ir.\n\n#mercurioretrogrado #mercúrioretrógrado #astrologia #escorpião"
+  },
+  {
+    "id": "1026-lua",
+    "quando": "2026-10-26T20:00",
+    "imagens": [
+      "1026-lua.jpg"
+    ],
+    "legenda": "Lua Cheia em Touro hoje, 26/10, à 1h12 (Brasília), a 2°47'. De frente pro Sol em Escorpião.\n\nO que você construiu fica. O que você só prometeu, não.\n\n#luacheia #luacheiaemtouro #astrologia #lunação"
   },
   {
     "id": "1027-jessica",
