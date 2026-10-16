@@ -442,6 +442,11 @@
     "legenda": "A Roda da Fortuna (X) não escolhe quem sobe. Só gira.\n\nQuem tá em cima hoje já esteve embaixo. Quem tá embaixo, idem.\n\n#tarot #tarô #rodadafortuna #arcanosmaiores #leituradetarot #tarotonline #cartomante #astrologia #signos #astrologica"
   },
   {
+    "id": "1016-story",
+    "quando": "2026-10-16T20:15",
+    "story": "1016-story.jpg"
+  },
+  {
     "id": "1017-crescente",
     "quando": "2026-10-17T20:00",
     "imagens": [
@@ -450,12 +455,22 @@
     "legenda": "Lua Crescente em Capricórnio amanhã, domingo 18/10, às 13h13 (Brasília), a 25°19'.\n\nMetade acesa, metade no escuro. É a fase de empurrar: o que você começou na Lua Nova de Libra (10/10) pede esforço agora, não inspiração.\n\n#luacrescente #lua #fasesdalua #capricornio #astrologia #signos #horoscopo #mapaastral #astrologiabrasil #astrologica"
   },
   {
+    "id": "1017-story",
+    "quando": "2026-10-17T20:15",
+    "story": "1017-story.jpg"
+  },
+  {
     "id": "1018-visao",
     "quando": "2026-10-18T20:00",
     "imagens": [
       "1018-visao.jpg"
     ],
     "legenda": "Teste de visão da semana. Leia até onde conseguir.\n\nPlutão volta a andar direto, Vênus segue retrógrada, Sol entra em Escorpião na sexta 23/10, Mercúrio fica retrógrado no sábado 24/10, Vênus volta pra Libra no domingo 25/10, Lua Cheia em Touro na segunda 26/10, 1h12.\n\nSegunda, 20h, tem o horóscopo da semana aqui.\n\n#astrologia #signos #horoscopo #horoscopodasemana #mercurioretrogrado #luacheia #escorpiao #mapaastral #astrologiabrasil #astrologica"
+  },
+  {
+    "id": "1018-story",
+    "quando": "2026-10-18T20:15",
+    "story": "1018-story.jpg"
   },
   {
     "id": "1019-horoscopo-parte1",
@@ -486,6 +501,11 @@
     "legenda": "Horóscopo da semana, 19 a 25/10 · parte 2: Libra a Peixes.\n\nSol entra em Escorpião na sexta 23/10, às 7h. Mercúrio fica retrógrado no sábado 24/10, em Escorpião 21°, até 13/11. Vênus, ainda retrógrada, volta pra Libra no domingo 25/10.\n\nCasa é a área da vida onde isso cai pra você, contada a partir do seu signo solar.\n\nÁries a Virgem no post anterior.\n\n#horoscopo #horoscopodasemana #astrologia #signos #libra #escorpiao #sagitario #capricornio #aquario #peixes #mercurioretrogrado #astrologica"
   },
   {
+    "id": "1019-story",
+    "quando": "2026-10-19T20:15",
+    "story": "1019-story.jpg"
+  },
+  {
     "id": "1020-jessica",
     "quando": "2026-10-20T20:00",
     "imagens": [
@@ -506,12 +526,22 @@
     ]
   },
   {
+    "id": "1020-story",
+    "quando": "2026-10-20T20:15",
+    "story": "1020-story.jpg"
+  },
+  {
     "id": "1023-escorpiao",
     "quando": "2026-10-23T20:00",
     "imagens": [
       "1023-escorpiao.jpg"
     ],
     "legenda": "Temporada de Escorpião. O Sol entrou hoje, 23/10, às 7h.\n\nA carta do signo é a Morte. Nada contra. É só o que ela diz: o que acabou, acabou.\n\n#escorpiao #temporadadeescorpiao #signos #astrologia #horoscopo #tarot #amorte #mapaastral #astrologiabrasil #astrologica"
+  },
+  {
+    "id": "1023-story",
+    "quando": "2026-10-23T20:15",
+    "story": "1023-story.jpg"
   },
   {
     "id": "1024-mercurio",
@@ -522,12 +552,22 @@
     "legenda": "Se você leu de primeira, parabéns.\n\nMercúrio ficou retrógrado hoje, 24/10, às 4h, em Escorpião 21°. Volta a andar direto em 13/11, no mesmo dia que Vênus. Até lá: reler antes de mandar, confirmar antes de ir.\n\n#mercurioretrogrado #mercúrioretrógrado #astrologia #signos #horoscopo #escorpiao #transitos #mapaastral #astrologiabrasil #astrologica"
   },
   {
+    "id": "1024-story",
+    "quando": "2026-10-24T20:15",
+    "story": "1024-story.jpg"
+  },
+  {
     "id": "1026-lua",
     "quando": "2026-10-26T20:00",
     "imagens": [
       "1026-lua.jpg"
     ],
     "legenda": "Lua Cheia em Touro hoje, 26/10, à 1h12 (Brasília), a 2°47'. De frente pro Sol em Escorpião.\n\nO que você construiu fica. O que você só prometeu, não.\n\n#luacheia #luacheiaemtouro #lua #fasesdalua #touro #escorpiao #astrologia #signos #horoscopo #astrologica"
+  },
+  {
+    "id": "1026-story",
+    "quando": "2026-10-26T20:15",
+    "story": "1026-story.jpg"
   },
   {
     "id": "1027-jessica",
@@ -548,5 +588,10 @@
     "colaboradores": [
       "_jessica_butterfly_"
     ]
+  },
+  {
+    "id": "1027-story",
+    "quando": "2026-10-27T20:15",
+    "story": "1027-story.jpg"
   }
 ]

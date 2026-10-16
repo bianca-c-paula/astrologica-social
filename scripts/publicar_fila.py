@@ -68,6 +68,12 @@ def extras(post, i=None):
 
 
 def publicar(post):
+    # Story: item com "story" (jpg 1080×1920 em midia/). Some em 24h; a API não
+    # aceita legenda, figurinha de link nem menção. Sem permalink: devolve o id.
+    if post.get("story"):
+        c = call("POST", f"{IG}/media", media_type="STORIES", image_url=SITE + post["story"])["id"]
+        pronto(c)
+        return "story:" + call("POST", f"{IG}/media_publish", creation_id=c)["id"]
     # Reel: item com "video" (mp4 em midia/) e, opcionalmente, "capa" (jpg). Aparece no feed também.
     if post.get("video"):
         q = extras(post); q.pop("user_tags", None)
@@ -111,7 +117,8 @@ def main():
     ja = {primeira_linha(m.get("caption")) for m in recentes}
     for post in fila:
         quando = dt.datetime.fromisoformat(post["quando"]).replace(tzinfo=BRT)
-        if quando > agora or post["id"] in feitos or primeira_linha(post["legenda"]) in ja:
+        linha = primeira_linha(post.get("legenda"))
+        if quando > agora or post["id"] in feitos or (linha and linha in ja):
             continue
         if agora - quando > ATRASO_MAX:
             print(f"pulado (atrasado): {post['id']}")
