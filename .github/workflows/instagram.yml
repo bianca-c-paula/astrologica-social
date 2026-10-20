@@ -25,12 +25,18 @@ jobs:
         env:
           META_PAGE_TOKEN: ${{ secrets.META_PAGE_TOKEN }}
           META_IG_USER_ID: ${{ secrets.META_IG_USER_ID }}
-      # Guarda o registro do que saiu (mesmo se a publicação falhar no meio).
+      # Responde comentários com fato (signo → casa da semana; mapa; tiragem).
+      - if: always()
+        run: python3 scripts/responder_comentarios.py
+        env:
+          META_PAGE_TOKEN: ${{ secrets.META_PAGE_TOKEN }}
+          META_IG_USER_ID: ${{ secrets.META_IG_USER_ID }}
+      # Guarda o registro do que saiu e do que foi respondido (mesmo se algo falhar no meio).
       - if: always()
         run: |
-          git diff --quiet publicados.json && exit 0
+          git diff --quiet publicados.json respondidos.json pendentes.json && exit 0
           git config user.name "agenda-instagram"
           git config user.email "agenda-instagram@users.noreply.github.com"
-          git add publicados.json
-          git commit -m "publicado: $(date -u +%FT%H:%MZ)"
+          git add publicados.json respondidos.json pendentes.json
+          git commit -m "agenda: $(date -u +%FT%H:%MZ)"
           git pull --rebase -q && git push -q
