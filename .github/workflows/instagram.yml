@@ -25,6 +25,12 @@ jobs:
         env:
           META_PAGE_TOKEN: ${{ secrets.META_PAGE_TOKEN }}
           META_IG_USER_ID: ${{ secrets.META_IG_USER_ID }}
+      # Mesmo post no Threads (só quando os segredos THREADS_* existirem).
+      - if: always()
+        run: python3 scripts/threads_publicar.py
+        env:
+          THREADS_TOKEN: ${{ secrets.THREADS_TOKEN }}
+          THREADS_USER_ID: ${{ secrets.THREADS_USER_ID }}
       # Responde comentários com fato (signo → casa da semana; mapa; tiragem).
       - if: always()
         run: python3 scripts/responder_comentarios.py
@@ -34,9 +40,9 @@ jobs:
       # Guarda o registro do que saiu e do que foi respondido (mesmo se algo falhar no meio).
       - if: always()
         run: |
-          git diff --quiet publicados.json respondidos.json pendentes.json && exit 0
+          git diff --quiet publicados.json respondidos.json pendentes.json threads.json && exit 0
           git config user.name "agenda-instagram"
           git config user.email "agenda-instagram@users.noreply.github.com"
-          git add publicados.json respondidos.json pendentes.json
+          git add publicados.json respondidos.json pendentes.json threads.json
           git commit -m "agenda: $(date -u +%FT%H:%MZ)"
           git pull --rebase -q && git push -q
