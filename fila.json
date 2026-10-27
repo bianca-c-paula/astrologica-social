@@ -632,6 +632,39 @@
     "story": "1026-story.jpg"
   },
   {
+    "id": "1027-horoscopo-parte1",
+    "quando": "2026-10-27T12:30",
+    "imagens": [
+      "1027-horo1-00.jpg",
+      "1027-horo1-01.jpg",
+      "1027-horo1-02.jpg",
+      "1027-horo1-03.jpg",
+      "1027-horo1-04.jpg",
+      "1027-horo1-05.jpg",
+      "1027-horo1-06.jpg"
+    ],
+    "legenda": "Horóscopo da semana, 26/10 a 01/11 · parte 1: Áries a Virgem.\n\nMercúrio retrógrado faz quadratura com Marte na sexta 30/10: palavra dita com raiva, mensagem mal lida, discussão por áudio. Sol em quadratura com Plutão na segunda 26. Lua Minguante no domingo 01/11, em Leão.\n\nCasa é a área da vida onde isso cai pra você, contada a partir do seu signo solar.\n\nLibra a Peixes no próximo post.\n\nComenta seu signo que eu te digo em que casa essa quadratura cai.\n\n#horoscopo #horoscopodasemana #astrologia #signos #aries #touro #gemeos #cancer #leao #virgem #mercurioretrogrado #astrologica"
+  },
+  {
+    "id": "1027-horoscopo-parte2",
+    "quando": "2026-10-27T12:35",
+    "imagens": [
+      "1027-horo2-00.jpg",
+      "1027-horo2-01.jpg",
+      "1027-horo2-02.jpg",
+      "1027-horo2-03.jpg",
+      "1027-horo2-04.jpg",
+      "1027-horo2-05.jpg",
+      "1027-horo2-06.jpg"
+    ],
+    "legenda": "Horóscopo da semana, 26/10 a 01/11 · parte 2: Libra a Peixes.\n\nMercúrio retrógrado faz quadratura com Marte na sexta 30/10: palavra dita com raiva, mensagem mal lida, discussão por áudio. Sol em quadratura com Plutão na segunda 26. Lua Minguante no domingo 01/11, em Leão.\n\nCasa é a área da vida onde isso cai pra você, contada a partir do seu signo solar.\n\nÁries a Virgem no post anterior.\n\nComenta seu signo que eu te digo em que casa essa quadratura cai.\n\n#horoscopo #horoscopodasemana #astrologia #signos #libra #escorpiao #sagitario #capricornio #aquario #peixes #mercurioretrogrado #astrologica"
+  },
+  {
+    "id": "1027-horo-story",
+    "quando": "2026-10-27T12:50",
+    "story": "1027-horo-story.jpg"
+  },
+  {
     "id": "1027-jessica",
     "quando": "2026-10-27T20:00",
     "imagens": [
