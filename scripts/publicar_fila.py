@@ -64,7 +64,24 @@ def extras(post, i=None):
         q["user_tags"] = json.dumps(tags)
     if i is None and post.get("colaboradores"):
         q["collaborators"] = json.dumps(post["colaboradores"])
+    alt = post.get("alt")   # texto alternativo: busca do Instagram cruza com a legenda (01/11, skill instagram-seo)
+    if isinstance(alt, list):
+        alt = alt[i or 0] if (i or 0) < len(alt) else None
+    if alt:
+        q["alt_text"] = alt
     return q
+
+
+def criar(**kw):
+    """Cria o container; se a API recusar o alt_text, tenta de novo sem ele (nunca trava o post)."""
+    try:
+        return call("POST", f"{IG}/media", **kw)["id"]
+    except Exception as e:
+        if "alt_text" not in kw:
+            raise
+        print("alt_text recusado, publicando sem:", e)
+        kw.pop("alt_text")
+        return call("POST", f"{IG}/media", **kw)["id"]
 
 
 def publicar(post):
@@ -86,9 +103,9 @@ def publicar(post):
         return call("GET", media, fields="permalink").get("permalink")
     urls = [SITE + img for img in post["imagens"]]
     if len(urls) == 1:
-        c = call("POST", f"{IG}/media", image_url=urls[0], caption=post["legenda"], **extras(post))["id"]
+        c = criar(image_url=urls[0], caption=post["legenda"], **extras(post))
     else:
-        filhos = [call("POST", f"{IG}/media", image_url=u, is_carousel_item="true", **extras(post, i))["id"]
+        filhos = [criar(image_url=u, is_carousel_item="true", **extras(post, i))
                   for i, u in enumerate(urls)]
         for f in filhos:
             pronto(f)

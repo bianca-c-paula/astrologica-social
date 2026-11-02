@@ -99,7 +99,7 @@ def resposta(texto, semana):
         return f"{SIGNOS[i]} {GLIFO[i]} · o horóscopo da sua semana sai toda segunda às 20h aqui no feed."
     t = plano(texto)
     if MAPA.search(t):
-        return ("O mapa astral completo é um PDF de 15 páginas, R$ 29,90, no link da bio (myastrologica.me). "
+        return ("O mapa astral completo é um PDF de 15 páginas, R$ 24,90, no link da bio (myastrologica.me). "
                 "Sem a hora de nascimento também dá: só ficam de fora as casas e o ascendente.")
     if TIRAGEM.search(t):
         return "As tiragens são com a @_jessica_butterfly_: o link tá na bio, ou chama ela no direct."
