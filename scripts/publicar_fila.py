@@ -51,6 +51,18 @@ def pronto(container):
     raise RuntimeError("mídia demorou demais")
 
 
+def publicar_container(c):
+    """03/11: o story falhou com "Media ID is not available" mesmo depois de FINISHED;
+    a Meta demora uns segundos a mais às vezes. Tenta de novo antes de desistir."""
+    for tentativa in range(5):
+        try:
+            return call("POST", f"{IG}/media_publish", creation_id=c)["id"]
+        except RuntimeError as e:
+            if "not available" not in str(e) or tentativa == 4:
+                raise
+            time.sleep(10)
+
+
 def chave(texto):
     return " ".join(texto.split())[:80]
 
@@ -90,7 +102,7 @@ def publicar(post):
     if post.get("story"):
         c = call("POST", f"{IG}/media", media_type="STORIES", image_url=SITE + post["story"])["id"]
         pronto(c)
-        return "story:" + call("POST", f"{IG}/media_publish", creation_id=c)["id"]
+        return "story:" + publicar_container(c)
     # Reel: item com "video" (mp4 em midia/) e, opcionalmente, "capa" (jpg). Aparece no feed também.
     if post.get("video"):
         q = extras(post); q.pop("user_tags", None)
@@ -99,7 +111,7 @@ def publicar(post):
         c = call("POST", f"{IG}/media", media_type="REELS", video_url=SITE + post["video"],
                  caption=post["legenda"], share_to_feed="true", **q)["id"]
         pronto(c)
-        media = call("POST", f"{IG}/media_publish", creation_id=c)["id"]
+        media = publicar_container(c)
         return call("GET", media, fields="permalink").get("permalink")
     urls = [SITE + img for img in post["imagens"]]
     if len(urls) == 1:
@@ -115,7 +127,7 @@ def publicar(post):
         c = call("POST", f"{IG}/media", media_type="CAROUSEL", children=",".join(filhos),
                  caption=post["legenda"], **q)["id"]
     pronto(c)
-    media = call("POST", f"{IG}/media_publish", creation_id=c)["id"]
+    media = publicar_container(c)
     return call("GET", media, fields="permalink").get("permalink")
 
 
