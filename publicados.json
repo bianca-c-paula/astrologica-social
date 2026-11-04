@@ -283,10 +283,12 @@
     "link": "story:18111318292912575"
   },
   "1102-horoscopo-parte1": {
-    "em": "2026-11-02T20:02-03:00"
+    "em": "2026-11-02T20:02-03:00",
+    "erro": "(#100) The param alt_text is not supported for CAROUSEL — remarcado como 1102-horoscopo-parte1-quarta"
   },
   "1102-horoscopo-parte2": {
-    "em": "2026-11-02T20:32-03:00"
+    "em": "2026-11-02T20:32-03:00",
+    "erro": "(#100) The param alt_text is not supported for CAROUSEL — remarcado como 1102-horoscopo-parte2-quarta"
   },
   "1102-horo-story": {
     "em": "2026-11-02T21:02-03:00",

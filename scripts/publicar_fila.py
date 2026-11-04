@@ -111,6 +111,7 @@ def publicar(post):
             pronto(f)
         q = extras(post)
         q.pop("user_tags", None)
+        q.pop("alt_text", None)   # 03/11: a API recusa alt_text no carrossel; ele vai em cada slide
         c = call("POST", f"{IG}/media", media_type="CAROUSEL", children=",".join(filhos),
                  caption=post["legenda"], **q)["id"]
     pronto(c)
@@ -145,7 +146,13 @@ def main():
         # um post faltando (visível), nunca um post repetido.
         feitos[post["id"]] = {"em": agora.isoformat(timespec="minutes")}
         PUBLICADOS.write_text(json.dumps(feitos, ensure_ascii=False, indent=2), encoding="utf-8")
-        link = publicar(post)
+        try:
+            link = publicar(post)
+        except Exception as e:
+            # 03/11: o horóscopo de 02/11 falhou e ficou só "em" no registro, parecendo publicado.
+            feitos[post["id"]]["erro"] = str(e)[:300]
+            PUBLICADOS.write_text(json.dumps(feitos, ensure_ascii=False, indent=2), encoding="utf-8")
+            raise
         feitos[post["id"]]["link"] = link
         PUBLICADOS.write_text(json.dumps(feitos, ensure_ascii=False, indent=2), encoding="utf-8")
         print(f"  {link}")
