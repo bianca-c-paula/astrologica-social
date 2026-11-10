@@ -1099,5 +1099,15 @@
   "id": "1110-lua-sagitario-story",
   "quando": "2026-11-10T20:30",
   "story": "1110-lua-sagitario-story.jpg"
+ },
+ {
+  "id": "1112-lua-capricornio-story",
+  "quando": "2026-11-12T18:00",
+  "story": "1112-lua-capricornio-story.jpg"
+ },
+ {
+  "id": "1115-lua-aquario-story",
+  "quando": "2026-11-15T09:00",
+  "story": "1115-lua-aquario-story.jpg"
  }
 ]
