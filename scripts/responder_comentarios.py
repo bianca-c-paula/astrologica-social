@@ -46,7 +46,7 @@ GLIFO = "♈♉♊♋♌♍♎♏♐♑♒♓"
 RAIZES = [r"\barie[sn]|\bariano|\bariana", r"\btouro\b|\btaurin", r"\bgemeos\b|\bgeminian",
           r"\bcancer\b|\bcancerian", r"\bleao\b|\bleonin", r"\bvirgem\b|\bvirginian",
           r"\blibra\b|\blibrian", r"\bescorpi", r"\bsagit", r"\bcapric", r"\baquari", r"\bpeixes\b|\bpiscian"]
-MAPA = re.compile(r"mapa (astral|completo)|\bpdf\b|hora (de nascimento|que nasci)|nao sei (a|minha) hora|quanto (custa|e|é)|\bvalor\b|\bpreco\b")
+MAPA = re.compile(r"\bmapa\b|\bpdf\b|hora (de nascimento|que nasci)|nao sei (a|minha) hora|quanto (custa|e|é)|\bvalor\b|\bpreco\b")
 TIRAGEM = re.compile(r"\btiragem|\bconsulta|\bleitura|\bjessica|\bjogo de (tarot|taro|cartas)|\bbaralho cigano|\bagendar")
 
 
@@ -106,6 +106,25 @@ def resposta(texto, semana):
     return None
 
 
+DM_MAPA = ("Oi! Aqui é a Astra, da Astrológica. Você comentou MAPA, então segue o link: "
+           "https://myastrologica.me/ig?utm_source=ig_dm\n"
+           "É um PDF de 15 páginas, R$ 24,90, com Pix ou cartão. "
+           "Sem a hora de nascimento também dá: só ficam de fora as casas e o ascendente.")
+
+
+def dm_mapa(comentario_id):
+    """Resposta privada (direct) a quem comentou. Uma mensagem por comentário, até 7 dias depois.
+    Precisa da permissão instagram_manage_messages no token; sem ela devolve False e o
+    bot segue só com a resposta pública."""
+    try:
+        call("POST", f"{IG}/messages", recipient=json.dumps({"comment_id": comentario_id}),
+             message=json.dumps({"text": DM_MAPA}))
+        return True
+    except RuntimeError as e:
+        print(f"  direct não saiu: {e}")
+        return False
+
+
 def main():
     agora = dt.datetime.now(dt.timezone.utc)
     hoje = (agora - dt.timedelta(hours=3)).date()
@@ -135,8 +154,11 @@ def main():
                 return
             print(f"@{c['username']}: {c.get('text', '')[:60]!r}\n  → {r}")
             if not DRY:
+                direct = bool(MAPA.search(plano(c.get("text")))) and signo_em(c.get("text")) is None and dm_mapa(c["id"])
+                if direct:
+                    r = "Te mandei o link no direct. Se não aparecer, olha em Solicitações de mensagem."
                 call("POST", f"{c['id']}/replies", message=r)
-                feitos[c["id"]] = {"em": agora.isoformat(timespec="minutes"), "de": c["username"], "resposta": r}
+                feitos[c["id"]] = {"em": agora.isoformat(timespec="minutes"), "de": c["username"], "resposta": r, "direct": direct}
                 pendentes.pop(c["id"], None)
                 RESPONDIDOS.write_text(json.dumps(feitos, ensure_ascii=False, indent=2), encoding="utf-8")
                 time.sleep(2)
